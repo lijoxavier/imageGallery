@@ -1,0 +1,86 @@
+.upload-container ion-icon {
+    width: 93px;
+    height: 73px;
+}
+
+.upload-container #form-file-upload {
+    height: 16rem;
+    width: 28rem;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.upload-container #input-file-upload {
+    display: none;
+}
+
+.upload-container #label-file-upload {
+    height: 100%;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    border-radius: 1rem;
+    border-style: dashed;
+    border-color: #cbd5e1;
+    /* background-color: #f8fafc; */
+    font-size: 22px;
+}
+
+/* .upload-button {
+    cursor: pointer;
+    padding: 0.25rem;
+    font-size: 1rem;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    background-color: transparent;
+} */
+
+/* .upload-button:hover {
+    text-decoration-line: underline;
+} */
+
+.upload-container #label-file-upload.dragactive {
+    border-color: #EFD9C2;
+}
+
+.upload-container progress {
+    width: 946px;
+    height: 7px;
+    border-radius: 10px;
+}
+
+.upload-container progress::-webkit-progress-value {
+    background: #EFD9C2;
+}
+
+/* progress::-webkit-progress-bar {
+    background: blue;
+} */
+
+.upload-container .percent-text {
+    display: block;
+}
+
+.upload-container .filename {
+    padding-bottom: 3px;
+}
+
+.upload-container .heading {
+    margin-bottom: 76px;
+    font-size: 22px;
+}
+
+.upload-container .heading h3 {
+    padding-top: 81px;
+    padding-bottom: 12px;
+}
+
+/* .upload-container #label-file-upload .icon-inner ,.ionicon,   not worked
+svg{
+    color: #EFD9C2;
+} */

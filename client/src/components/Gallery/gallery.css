@@ -1,0 +1,25 @@
+ .image-gallery img {
+     /* width: 300px;
+     height: 300px; */
+     object-fit: contain;
+    /* background: #373535eb; */
+ }
+
+ .image-gallery {
+     margin-top: 20px;
+     display: grid;
+     row-gap: 23px;
+     column-gap: 14px;
+     grid-template-columns: repeat(3,300px);
+     justify-content: center;
+     position: relative;
+     padding: 18px;
+     
+ }
+
+ @media (max-width:600px) {
+    .image-gallery {
+        grid-template-columns: repeat(2,300px);
+    }
+    
+ }

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image-gallery-container {
+    /* width: 980px; */
+    /* width: 1512px; */
+    background: #FFFFFF;
+    color: black;
+    /* height: 1000px; */
+    padding-bottom: 84px;
+}
+
+/* @media (max-width:600px) {
+    .image-gallery-container{
+        min-height: 1000px;
+
+    }
+    
+} */
