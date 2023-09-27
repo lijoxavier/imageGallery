@@ -1,5 +1,5 @@
 import React from 'react'
-import './imgGallery.css'
+import './imggallery.css'
 import Upload from '../Upload/Upload'
 
 const ImgGallery = () => {
